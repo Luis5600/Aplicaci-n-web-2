@@ -1,0 +1,19 @@
+#Indicamos la version del archivo docker compose
+version: "3"
+#Declaramos los servicios que se van iniciar e incluir en el docker
+services:
+  #Indicamos un nombre para el servicio
+  consultas:
+    #Indicar donde se encuentra el dockerfile del servicio
+    build: ./BackendConsultas
+    #Establecemos variables de entorno
+    environment:
+      - PORT=3000
+      - MONGO_URI=mongodb+srv://AWIILT:AWIILT@cluster0.zg7m4.mongodb.net/bibliotecabot?retryWrites=true&w=majority
+
+  bot:
+    #Indicar donde se encuentra el dockerfile del servicio
+    build: ./BackendBot
+    #Indicamos que se debe esperar a que se incie el otro servicio para iniciarse
+    depends_on:
+      - consultas
