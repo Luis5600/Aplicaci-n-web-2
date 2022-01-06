@@ -1,0 +1,550 @@
+.form_register{
+	width: 450px;
+	margin: auto;
+}
+.form_register h1{
+	color: #3c93b0;
+}
+hr{
+	border: 0;
+	background: #CCC;
+	height: 1px;
+	margin: 10px 0;
+	display: block;
+}
+form{
+	background: #FFF;
+	margin: auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+}
+.espe{
+	display: contents;
+	margin: 0;
+	padding: 0;
+	border: none;
+	
+}
+.btn-danger{
+	margin: 12px 10px;
+	/* background-color: #de3a4a; */
+	margin: 10px 10px; 
+    /* background-color: #de3a4a; */
+    border: none;
+    border-radius: 3px;
+    padding: 2px;
+    color: #e41c1c;
+	font-size: 12pt;
+
+	
+}
+.btn_s{
+	width: 25%;
+	margin-bottom: 10px;
+}
+.espe .link_delete{
+	/* border: none; */
+	font-size: 12pt;
+}
+label{
+	display: block;
+	font-size: 12pt;
+	font-family: 'GothamBook';
+	margin: 15px auto 5px auto;
+}
+input,select{
+	display: block;
+	width: 100%;
+	font-size: 11pt;
+	padding: 5px;
+	border: 1px solid #85929e;
+	border-radius: 5px;
+}
+.notItemOne option:first-child{
+	display: none;
+}
+.btn_save{
+	font-size: 12pt;
+	background: #12a4c6;
+	padding: 10px;
+	color: #FFF;
+	letter-spacing: 1px;
+	border: 0;
+	cursor: pointer;
+	
+	margin: 10px auto;
+	border-radius: 5px;
+	
+}
+.cc{
+	margin: 10px auto 10px 50%;
+}
+
+.alert{
+	width: 100%;
+	background: #66e07d66;
+	border-radius: 6px;
+	margin: 20px auto;
+}
+.msg_error{
+	color: #e65656;
+}
+.msg_save{
+	color: #126e00;
+}
+.alert p{
+	padding: 10px;
+}
+
+/*=============== LISTA USUARIO =============*/
+#container h1{
+	font-size: 35px;
+	display: inline-block;
+}
+.btn_new{
+	display: inline-block;
+	background: #239baa;
+	color: #FFF;
+	padding: 5px 25px;
+	border-radius: 4px;
+	margin: 20px;
+	
+}
+table{
+	border-collapse: collapse;
+	font-size: 12pt;
+	font-family: 'arial';
+	width: 100%;
+}
+table th{
+	text-align: left;
+	padding: 10px;
+	background: #3d7ba8;
+	color: #FFF;
+}
+table tr:nth-child(odd){
+	background: #FFF;
+}
+table td{
+	padding: 10px;
+}
+.link_edit{
+	color: #0ca4ce;
+}
+.link_delete{
+	color: #f26b6b;
+}
+.data_delete{
+	text-align: center;
+}
+.data_delete h2{
+	font-size: 12pt;
+}
+.data_delete span{
+	font-weight: bold;
+	color: #4f72d4;
+	font-size: 12pt;
+}
+.btn_cancel,.btn_ok{
+	width: 124px;
+	background: #478ba2;
+	color: #FFF;
+	display: inline-block;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin: 15px;
+}
+.btn_cancel{
+	background: #de3a4a;
+	font-size: 12pt;
+    /* background: #12a4c6; */
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.data_delete form{
+
+	background: initial;
+	margin: auto;
+	padding: 20px 50px;
+	border: 0;
+
+}
+/*============ Paginador =============*/
+.paginador ul{
+	padding: 15px;
+	list-style: none;
+	background: #FFF;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+.paginador a, .pageSelected{
+	color: #428bca;
+	border: 1px solid #ddd;
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	width: 35px;
+}
+.paginador a:hover{
+	background: #ddd;
+}
+.pageSelected{
+	color: #FFF;
+	background: #428bca;
+	border: 1px solid #428bca;
+}
+/*============ Buscador ============*/
+.form_search{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	float: right;
+	background: initial;
+	padding: 10px;
+	border-radius: 10px;
+}
+.form_search .btn_search {
+	background: #1faac8;
+    color: #FFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    width: 95px
+}
+.btn_search{
+	padding: 9px 9px;
+}
+
+/*============ Ventas ============*/
+.datos_cliente, .datos_venta, .title_page{
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+#detalle_venta tr{
+	background-color: #FFF !important;
+}
+#detalle_venta td{
+	border-bottom: 1px solid #CCC;
+}
+.datos{
+	background-color: #e3ecef;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid #78909C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.action_cliente{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.datos label{
+	margin: 5px auto;
+}
+.wd20{
+	width: 20%;
+}
+.wd25{
+	width: 25%;
+}
+.wd30{
+	width: 30%;
+}
+.wd40{
+	width: 40%;
+}
+.wd60{
+	width: 60%;
+}
+.wd100{
+	width: 100%;
+}
+#div_registro_cliente, #add_product_venta{
+	display: none;
+}
+.displayN{
+	display: none;
+}
+.tbl_venta{
+	max-width: 900px;
+	margin: auto;
+}
+.tbl_venta tfoot td{
+	font-weight: bold;
+}
+.textright{
+	text-align: right;
+}
+.textcenter{
+	text-align: center;
+}
+.textleft{
+	text-align: left;
+}
+.btn_anular{
+	background-color: #f36a6a;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 3px;
+	color: #FFF;
+}
+/*------------------*/
+
+
+.modal{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.81);
+	display: none;
+}
+.bodyModal{
+	width: 100%;
+	height: 100%;
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal h1{
+	color: #0E725D;
+	text-transform: uppercase;
+}
+.modal h2{
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+#form_add_product,#form_del_product,#form_anular_factura{
+	width: 420px;
+	text-align: center;
+}
+.select_p option{
+	background-color: #ffffff;
+	color: #000000;
+
+}
+.select_p {
+	background-color: #3d7ba8;
+	color: #ffffff;
+font-weight: bold;
+}
+/* Lista de ventas */
+
+.form_search_date{
+	padding: 10px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-radius: 10px;
+	margin: 10px auto;
+}
+.form_search_date label {
+margin: 0 10px;
+}
+.form_search_date input{
+width: auto;
+}
+.form_search_date .btn_view{
+padding: 8px;
+}
+.btn_view{
+	background-color: #1faac8;
+	border: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	margin: 0 3px;
+	color: #FFF;
+	}
+.div_acciones{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: center;
+
+}
+
+.totalfactura{
+display: -webkit-flex;
+display: -moz-flex;
+display: -ms-flex;
+display: -o-flex;
+display: flex;
+justify-content: space-between;
+}
+
+.pagada, .anulada{
+	color: #fff;
+	background-color: #60a756;
+	text-align: center;
+	border-radius: 5px;
+	padding: 4px 15px;
+}
+.anulada{
+	background: #f36a6a;
+}
+.inactive{
+	background-color: #a4a4a4;
+	color: #CCC;
+	cursor: default;
+}
+
+/* ======Panel de Control */
+.titlePanelControl{
+	width: 100%;
+	background: #FFF;
+	padding: 5px 15px;
+	margin-bottom: 10px;
+	color: #0a4661;
+	font-size: 18pt !important;
+	margin-top: 10px;
+}
+.dashboard{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin: auto;
+}
+.dashboard a{
+	color: #898989;
+	width: calc(100%/5);
+	padding: 20px;
+	background-color: #fff;
+	text-align: center;
+}
+
+.dashboard p{
+	color: #3279a7;
+}
+.dashboard a span{
+	font-weight: bold;
+	font-size: 14pt;
+}
+/* panel -----------------------------------------------------------------------------*/
+.containerPerfil{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+
+}
+
+.containerDataUser, .containerDataEmpresa{
+	width: 500px;
+	background-color: #FFF;
+	padding: 20px;
+}
+
+.logoUser, .logoEmpresa{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	margin: 20px auto;
+	padding: 25px;
+	background: #e9e9e9;
+}
+
+.logoUser img, .logoEmpresa img{
+	width: 100%;
+	height: 100%;
+}
+.divdataUser{
+	padding: 10px;
+	margin: auto;
+}
+.divInfoSistem h4{
+	background: #3279a7;
+	padding: 5px 10px;
+	color: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.divDataUser > div{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flexbox;
+	display: -o-flex;
+	display: flex;
+}
+
+.divDataUser label{
+	width: 150px;
+	margin: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.divDataUser span{
+	padding: 5px;
+}
+
+.divInfoSistem form{
+	padding: 20px;
+}
+
+.divInfoSistem input{
+	margin-bottom: 10px;
+}
+
+.divInfoSistem button{
+	width: 100%;
+	margin: auto;
+	
+}
+.alertChangePass,.aler{
+text-align: center;
+font-weight: bold;
+
+}

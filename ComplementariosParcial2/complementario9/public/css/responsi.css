@@ -1,0 +1,236 @@
+/*Menu de menu de navegasion y header*/
+@media screen and (max-width:1017px ){
+    .btnMenu{
+        display: block;
+    }
+    #container {
+        padding: 69px 15px 15px
+    }
+	nav{
+        position: absolute;
+		width: 100%;
+        left: -100%;
+       transition: 0.5s all;
+	}
+	nav ul{
+		flex-direction: column;
+    
+	}
+    nav ul li{
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+    }
+    nav ul li:hover ul{
+        display: none;       
+    }
+    
+    nav ul li a{
+        text-align: left;
+        width: 100%;
+    }
+    nav li ul{
+        position: relative;
+        border-radius: 0;
+    }
+    nav li ul li:last-child{
+        border-radius: 0;
+    }
+    nav .principal .arrow{
+        float: right;
+
+    }
+}
+@media screen and (max-width: 1188px){
+    .header {
+    height: 40%;
+    }
+    .header h1{
+    font-size: 20px;
+
+}
+}
+@media screen and (max-width: 810px){
+    .header p{
+        /* height: 60%; */
+        line-height: 18px;
+        font-size: 14px;
+
+    }
+ }
+@media screen and (max-width: 792px){
+    .header p{
+        /* height: 60%; */
+        line-height: 13px;
+        font-size: 9px;
+        display: none;
+    }
+    .header h1{
+        font-size: 16px;
+        /* left: 43px; */
+       /* margin-right: 92px;*/
+    
+    }
+    .optionsBar span {
+        
+        font-size: 9pt;
+        margin-left: 1px;
+        line-height: 15px;
+    }
+    .photouser {
+        margin-left: 6px;
+        
+    }
+    .close {
+        width: 30px;
+        height: 28px;
+       
+}
+#container {
+    padding: 60px 10px 10px;
+}
+.form_search .btn_search {
+margin-right: 50%;
+font-size: 9pt;
+}
+/*            -----------  lista de usuarios  */
+.btn_new{
+    margin: 0;
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 8pt;
+}
+.form_search{
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+}
+.containerTable{
+    width: 100%;
+    border: 5px solid #ccc;
+    overflow: scroll;
+}
+table{
+    width: 850px;
+}
+table td, table th{
+    padding: 5px;
+    font-size: 10pt;
+}
+.form_register{
+    width: 100%;
+}
+form{
+    padding: 10px;
+}
+.btn_save, .btn_cancel{
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.bodyModal {
+
+    padding: 10px;
+}
+.btn_new{
+    width: 124px;
+    font-size: 12pt;
+    border: 0;
+    
+}
+.btn_newP,.btn_newG,.btn_new_cliente{
+    width: 140px;
+    font-size: 8pt;
+}
+}
+
+@media screen and (max-width: 462px){
+    .form_search .btn_search {
+        margin-right: 0%;
+        
+        }
+    .header h1{
+        /* height: 60%; */
+        
+        font-size: 12px;
+
+    }
+    .optionsBar span {
+        
+        font-size: 6pt;
+        margin-left: 6px;
+        line-height: 9px;
+    }
+    /*----------------------Menu index-----------------------*/
+    .dashboard a{
+        padding: 5px 2px;
+    }
+    .dashboard p{
+        font-size: 9pt;
+    }
+    .dashboard span{
+        font-size: 10pt;
+    }
+    .divDataUser label{
+        width: 80px;
+    }
+    /**--------------------------*/
+    .btn_new{
+        
+        margin-right: 8px;}
+
+}
+/*---------------------------------------------*/
+@media screen and (max-width: 768px){
+    .dashboard {
+        flex-wrap: wrap;
+    }
+    .dashboard a{
+        width: 50%;
+        border: 1px solid #ccc;
+    }
+    .containerDataUser, .containerDataEmpresa {
+        width: 100%;
+        margin-bottom: 20px;
+    padding: 10px;
+    }
+        #container h1{
+            font-size: 12pt !important;
+        }
+        .logoUser, .logoEmpresa{
+            width: 150px;
+            height: 150px;
+        }
+
+}
+
+
+/*392*/
+
+@media screen and (max-width: 392px){
+    .optionsBar a {
+        margin-left: 10px;
+        width: 22px;
+    height: 22px;
+    }
+    .header h1{
+        font-size: 11px;
+    }
+    .photouser { 
+    display: none;
+        
+    }
+
+}
+
+@media screen and (max-width: 255px){
+    .form_search .btn_search {
+        margin-right: -24%;
+    }
+    .optionsBar span {
+        display: none;
+    }
+
+}
+
+
